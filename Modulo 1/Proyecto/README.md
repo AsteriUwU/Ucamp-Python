@@ -1,5 +1,5 @@
 <h2>Este es el como hice mi proyecto:<h2>
-<p>-Primero agregué el titulo</p>
+<h3>-Primero agregué el titulo</h3>
 <p>-Despues empecé a agregar las variables y poner los inputs para ponerles datos</p>
 <p>-Decidí verificar que se verifiquen los datos al momentos de introducirlos para acortar la cantidad de lineas de codigo</p>
 <p>-La verificación de valores alfabeticos las hice investigando y con ayuda de este post en StackOverflow: https://stackoverflow.com/questions/30994738/how-to-make-input-only-accept-a-z-etc</p>
