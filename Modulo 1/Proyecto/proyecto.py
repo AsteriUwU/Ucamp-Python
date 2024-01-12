@@ -30,13 +30,35 @@ while height <= 0.54:
 
 # Calcular IMC
 imc = weight / (height**2)
+imc = float(imc)
 
 # Mostrar datos
 print('\n=-=-= Datos del usuario =-=-=')
-print('Nombre: ' + str(name.capitalize))
-print('Apellido paterno: ' + str(pSurname.capitalize))
-print('Apellido materno: ' + str(mSurname.capitalize))
+print('Nombre: ' + str(name.capitalize()))
+print('Apellido paterno: ' + str(pSurname.capitalize()))
+print('Apellido materno: ' + str(mSurname.capitalize()))
 print('Edad: ' + str(age) + ' años')
 print('Peso: ' + str(weight) + ' Kg.')
-print('Nombre: ' + str(name) + ' m.')
+print('Altura: ' + str(height) + ' m.')
 print('Índice de Masa Corporal (IMC): {:.2f}'.format(imc))
+
+# Condición en la que se encuentra el usuario
+print('\n=-=-= Condición en la que se encuentra el usuario =-=-=')
+
+if imc <= 18.99:
+    print('El usuario tiene peso bajo')
+
+if imc >= 19 and imc <= 24.99:
+    print('El usuario tiene peso normal')
+
+if imc >= 25 and imc <= 29.99:
+    print('El usuario tiene sobrepeso')
+
+if imc >= 30 and imc <= 34.99:
+    print('El usuario tiene obesidad leve')
+
+if imc >= 35 and imc <= 39.99:
+    print('El usuario tiene obesidad media')
+
+if imc >= 40:
+    print('El usuario tiene obesidad media')
