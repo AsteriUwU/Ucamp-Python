@@ -1,0 +1,5 @@
+## Este es como hice el histograma
+<p>-Hice que cada cambio de dirección que haga la canica sea de 0.5, al final dará un numero entero, el 0 sería la caja de en medio y del 0 al -6 son 6 cajas a la izquierda y del 0 al 6 son 6 cajas a la derecha</p>
+<p>-Para que sea más entiendible use otra función para que cambie los valores y sean en vez desde la caja -6 a la 6, sea de la caja 1 a la 13</p>
+<p>-Descubrí que el histograma no funciona con listas así que tube que buscar como usar un array numpy, busqué si habia alguna manera de usar el ".append()" con los array pero gastaba mucha memoria, así que lo que decidí que es mejor fue trabajar con una lista y al final combertirla en un numpy array</p>
+<p>-No se me hizo tan complicado, lo únici que se me dificultó fué con los numpy array, pero lo demás estubo sencillo</p>situación</p>
